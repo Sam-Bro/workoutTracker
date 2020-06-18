@@ -9,8 +9,8 @@ module.exports = function(app) {
         res.sendFile(path.join(__dirname, "../public/stats.html"))
     });
 
-    app.get("/workout", function(req, res) {
-        res.sendFile(path.join(__dirname, "../public/workout.html"))
+    app.get("/exercise", function(req, res) {
+        res.sendFile(path.join(__dirname, "../public/exercise.html"))
     });
 
 }
