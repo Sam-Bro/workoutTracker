@@ -34,6 +34,7 @@ No tests available
 
 ## questions
   - github Repository: https://github.com/Sam-Bro/workoutTracker
+  - link to deployed application: https://blooming-mesa-65164.herokuapp.com/
   - github: https://sam-bro.github.io/
   - Created by Samuel Broughton
     
