@@ -17,7 +17,9 @@ const PORT = process.env.PORT || 3030;
 require("./routes/apiRoutes")(app);
 require("./routes/hmtlRoutes")(app);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
+
+mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true
 });
 
