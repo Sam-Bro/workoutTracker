@@ -41,7 +41,7 @@ module.exports = function (app) {
   });
 
   // create a workout
-  app.post("/api/workouts/range", (req, res) => {
+  app.post("/api/workouts", (req, res) => {
     db.Workout.create({ req })
       .then((exerciseDB) => {
         console.log(exerciseDB);

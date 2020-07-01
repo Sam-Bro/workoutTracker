@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-const PORT = process.env.PORT || 3030;
+const PORT = process.env.PORT || 3050;
 
 //routes
 require("./routes/apiRoutes")(app);
